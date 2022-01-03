@@ -6,3 +6,7 @@
 
 ![](https://github.com/YingMa-cc/speech-enhancement-of-FM-speech/blob/result/human.wav)  
 
+<audio id="audio" controls="" preload="none">
+      <source id="mp3" src="https://github.com/YingMa-cc/speech-enhancement-of-FM-speech/blob/result/human.wav">
+      </audio>
+
