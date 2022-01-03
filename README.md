@@ -4,5 +4,5 @@
 ##### -The human.wav is the actually collected FM speech with distortion.
 ##### -The humanest.wav is the enhanced FM speech using our method.
 
-![](https://github.com/YingMa-cc/speech-enhancement-of-FM-speech.git/human.wav)  
+![](https://github.com/YingMa-cc/speech-enhancement-of-FM-speech/blob/result/human.wav)  
 
