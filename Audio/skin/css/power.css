@@ -1,0 +1,221 @@
+@charset "UTF-8";
+.header{
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+.banner{
+    position: relative;
+    /*padding:204px 0 40px 0;*/
+    background: #06175c;
+    height: 300px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.banner h1{
+    top: 110px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    z-index: 9;
+    font-size: 80px;
+    color: #fff;
+    text-align: left;
+    width: 400px;     text-shadow: 0 0 5px #000;
+}
+
+.banner p{
+    position: absolute;
+    top: 214px;
+    left: 50.3%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    z-index: 9;
+    font-size: 25px;
+    color: #fff;
+    line-height: 15px;
+    text-align: left;
+    width: 400px;
+}
+
+.banner img{
+    position: absolute;
+    height: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+.banner h3{
+    text-align: center;
+    position: absolute;
+    bottom: 108px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ffffff;
+}
+.power{
+    background-color: #f7f7f7;
+}
+.power h1{
+    padding: 70px 0;
+    font-size: 52px;
+    text-align: center;
+}
+.power h1 small{
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+}
+.power .aec,.power .beam{
+    overflow: hidden;
+    padding-bottom: 207px;
+}
+.power .beam .yw{
+    /*width: calc(100% - 60%);*/
+    box-sizing: border-box;
+    padding: 0 139px 0 0;
+}
+.power .zt{
+    float: left;
+    width: 55%;
+    box-shadow: 10px 10px 5px #d4d4d4;
+}
+.power .zt img{
+    width: 100%;
+}
+.power .yw{
+    float: left;
+    width: calc(100% - 55%);
+    padding: 0 15px 0 139px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.power .yw h2{
+    padding:0 0 70px 0;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+}
+.power .yw h2  small{
+    display: block;
+    font-size: 12px;
+    margin-bottom: 5px;
+    text-align: center;
+    line-height: 20px;
+}
+.power figure{
+    font-size: 18px;
+}
+.power figure.first div{
+    position: relative;
+    margin: -10px 0 85px 0;
+}
+.power figure  span{
+    position: absolute;
+    bottom: -55px;
+    left: -1px;
+    width: 100%;
+    height: 55px;
+    background-color: #f1f3f4;
+    border: 1px solid #969696;
+}
+
+.volume{
+    position: absolute;
+    width: 10%!important;
+    left: 87.5%!important;
+    font-size: 20px;
+    height: 27px!important;
+    line-height: 27px;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+    bottom: 27px!important;
+    border: none!important;
+    cursor: pointer;
+    outline: none;
+    background-color: #f1f3f4;
+}
+
+.power figure  audio {
+    width: 100%;
+    height: 100%;
+}
+
+.power figure div{
+    position: relative;
+    border: 1px solid #969696;
+    border-bottom: none;
+    margin: 50px 0 85px 0;
+    display: block;
+    width: 100%;
+    height: 100px;
+    background: url("../images/power_hui_09.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.power figure div img{
+    width: 100%;
+    height: 100%;
+}
+
+.power .zt-down{
+    margin-left: -14px;
+}
+@media screen and (max-width: 750px ){
+    .header{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+
+    }
+    .banner img{
+        /*height:450px;*/
+        height: 300px;
+    }
+
+    .banner p{
+        font-size: 14px;
+    }
+    .power .yw{
+        margin-top: 40px;
+    }
+    .header .width .nav{
+        float: left;
+        padding-left: 50px;
+    }
+    .power .zt,.beam .zt{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .power .yw,.power .beam .yw{
+        width: 100%;
+        padding: 0 15px 0 15px;
+        box-sizing: border-box;
+    }
+
+    .power h1{
+        font-size: 20px;
+        padding: 20px 0;
+    }
+
+    .power .yw h2{
+        font-size: 16px;
+    }
+
+    .power .aec, .power .beam{
+        padding-bottom: 50px;
+    }
+}

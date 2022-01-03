@@ -1,0 +1,292 @@
+@charset "UTF-8";
+
+body{
+    /*padding-top: 75px;*/
+}
+.header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 15px 0;
+    /*background-color: #333;*/
+}
+.fixednav{ background:#05185d; padding: 10px 0;}
+.header img{
+    height: 35px;
+}
+
+
+.header .iphone_nav{
+    display: none;
+}
+.width{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.header .nav li{
+    overflow: hidden;
+}
+.header .nav li{
+    float: left;
+    padding:15px 15px;
+}
+.header .nav li a{
+    font-size: 14px;
+    color: #d1d1d1;
+
+}
+
+.header .nav li a:hover{
+    color: #ff3c3c;
+}
+
+.header .nav li.active a{
+    color: #ff3c3c;
+}
+.footer{
+    background-color: #06175c;
+    padding: 60px 0 0 28px;
+}
+.footer dl{
+    width: 33.3%;
+    text-align: center;
+}
+.footer dl,.footer dl a{
+    color: #f5ffff;
+}
+.footer dl dt.title{
+    font-size: 15px;
+    line-height: 45px;
+
+}
+.footer dl dd{
+    line-height: 22px;
+}
+.footer .m189{
+    padding-bottom: 189px;
+}
+.footer .pd26{
+    margin-bottom: 26px;
+}
+.footer .logo{
+    width: 109px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 0 119px 0;
+
+}
+
+.footer .logo img{
+    height: 35px;
+}
+
+.footer .pull-left a{
+    text-decoration: underline!important;
+}
+
+.footer .pull-left a:hover{
+    color: #ff3c3c;
+}
+
+.dedepages{margin:20px auto 0;overflow: hidden;/* float:right; */width: 100%;}
+.dedepages ul{
+	/* float:left; */
+	margin: 0;
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+.dedepages ul a{
+	line-height: 32px;
+	margin-left:6px;
+	border:1px solid #E9E9E9;
+	list-style:none;
+	display: inline-table;
+	text-align: center;
+	padding: 0 10px; font-size:14px;
+	transition:.5s;-moz-transition:.5s; -webkit-transition:.5s;
+}
+.dedepages ul a:hover{	background:#0d62a3;
+	color:#ffffff;}
+.current{
+	background:#0d62a3;
+	color:#ffffff;
+}
+.current:hover{ color:#fff;}
+.dedepages ul li a{
+	/* float:left; */
+	color:#555;
+	display:block;
+}
+.content .mainbar .article h2{ font-size:30px; font-weight:normal; line-height:40px; margin-bottom:30px}
+.dibu{background:#06175c;padding:40px 0;overflow: hidden; border-top:2px solid #fff;}
+.dibu h3{float:left;margin-top: 30px;width:25%;}
+.dibu ol{width: 60%;float:left;margin-top: 50px;}
+.dibu ol li{width: 50%;float:left;text-align: center;height: 40px;line-height: 40px;}
+.dibu ol li a{ color:#fff; font-weight:normal; font-size:16px;}
+.dibu h4{font-weight:normal;text-align:center;width:120px;float:right;color: #fff;font-size: 14px;line-height: 30px; padding:0;}
+.dibu h4 img{ width:100%;}
+.width2{ max-width:900px; margin:auto;}
+.dibu h3 span{font-size: 22px;color:#eee;}
+
+.content{ margin:40px 0; overflow:hidden;}
+.content_resize { margin:0 auto; padding:16px 0 24px; width:970px;}
+.content .mainbar { margin:0; padding:0; float:left; width:970px;}
+.content .mainbar img { border:1px solid #d8dbdc;  height:auto;}
+.content .mainbar img.fl { margin:4px 16px 4px 0; float:left; width:225px;}
+.content .mainbar .article { margin:0 0 12px; padding:8px 24px 0;}
+
+.clr { clear:both; padding:0; margin:0; width:100%; font-size:0px; line-height:0px;}
+p.spec { padding-bottom:16px; border-bottom:1px solid #eee; clear:both; text-align:right;}
+p.infopost { padding:4px 8px; border:1px solid #e9e8e8;}
+.content .mainbar .article p {
+    margin: 8px 0;
+    font: normal 14px/1.8em Arial, Helvetica, sans-serif;
+    color: #959595;
+    overflow: hidden;
+}
+.content .mainbar .article p a{ color:#05185d}
+.content .mainbar .article h2 a {
+    font: normal 24px/0em Arial, Helvetica, sans-serif;
+    padding: 8px 0;
+    margin: 0 0 8px;
+    color: #323a3f;
+    }
+.content .sidebar { padding:0; float:right; width:0px;}
+.content .sidebar .gadget { margin:0 0 12px; padding:8px 16px 8px 24px;}
+.content .sidebar .gadget ul { margin:0; padding:0; list-style:inside; color:#959595;}
+.content .sidebar .gadget li { padding:4px 0; font-size:14px;}
+
+.content .sidebar .gadget li a { color:#959595; text-decoration:none;}
+.content .sidebar .gadget li a:hover { color:#30b0d5; font-weight:bold; text-decoration:underline;}
+
+.content .pages { padding:32px 24px 12px; font-size:12px; color:#959595; text-align:right;}
+
+.content .pages a,.content .pages span.now-page { padding:5px 10px; color:#959595; background-color:#fff; border:1px solid #edebeb; text-decoration:none;}
+.content .pages a:hover,.content .pages span.now-page { padding:5px 10px; color:#fff; background-color:#30b0d5; border:1px solid #30b0d5;}
+.content .pages small { font-size:11px; float:left;}
+.widthLogo{
+            width: 1170px;
+        }
+.liebiao{ overflow: hidden;}
+	.liebiao h4{ font-size:20px; text-align:center; margin:20px auto; }
+	.liebiao ul{width:40%;margin:2.5%;padding:2.3%;float:left;border:1px solid #ccc;height: 460px;overflow: auto;}
+	.liebiao ul li{ font-size:16px; font-weight:bold; margin-bottom:15px;}
+	.liebiao ul p{ line-height:25px; font-size:14px; margin-bottom:7px;}
+.youx{width:100%;margin-top:20px;text-align:center;font-size:16px;font-weight:bold;overflow: hidden;margin-bottom: 50px;}
+.liebiao ul article{line-height:23px;margin-bottom:7px;font-size: 14px;}
+@media screen and (max-width: 750px){
+	.liebiao ul{ width:90%; margin:auto; float:none; height:auto; margin-bottom:20px;}
+.dibu{background:#06175c;padding:40px 0;overflow: hidden;}
+.dibu h3{float:none;margin-top: 0;width:100%; text-align:center;}
+.dibu h3 img{ margin:auto;}
+.dibu ol{width:100%;float:none;margin: 20px 0; overflow:hidden;}
+.dibu ol li{width: 25%;float:left;text-align: center;}
+.dibu ol li a{color:#fff;font-weight:normal;font-size: 14px;}
+.dibu h4{font-weight:normal;text-align:center;width:120px;float:none; margin:auto; color: #fff;font-size: 14px;line-height: 30px;}
+
+    .header .nav{
+        display: none;
+    }
+    .header .iphone_nav{
+        display: block;
+    }
+    .header .iphone_nav button.toggle{
+        position: relative;
+        float: right;
+        padding: 9px 10px;
+        margin: 0 15px 0 0;
+        background-color: transparent;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        cursor: pointer;
+        z-index: 100;
+    }
+    .header .iphone_nav button.toggle .icon-bar{
+        display: block;
+        width: 22px;
+        height: 2px;
+        border-radius: 1px;
+        margin-top: 4px;
+        background-color: #fff;
+    }
+    .header .toggle_nav{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        text-align: center;
+        padding-top: 74px;
+        transition: .3s;
+        height: 0;
+        opacity: 0;
+        overflow: hidden;
+        background-color: #333;
+
+    }
+    .header .toggle_nav a{
+        color: #ffffff;
+        display: block;
+        width: calc(100% - 30px);
+        padding: 8px 15px;
+        transition: all .5s;
+        font-size: 14px;
+        background-color: transparent;
+    }
+    .header .toggle_nav a:hover{
+        color: #ff3c3c;
+    }
+    .footer .width{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .width{
+        width: 100%!important;
+        box-sizing: border-box;
+    }
+
+    .footer dl{
+        margin-left: 0;
+    }
+
+    .footer dl img{
+        width: 100%;
+    }
+
+
+.content_resize { margin:0 auto; padding:16px 0 24px; width:100%;}
+.content .mainbar { margin:0; padding:0; float:left; width:100%;}
+.content .mainbar img { border:1px solid #d8dbdc;  height:auto;}
+.content .mainbar img.fl { margin:4px 16px 4px 0; float:left; width:100%;}
+.content .mainbar .article {margin:0 0 12px;padding:8px 24px 0;margin-bottom: 20px;padding-bottom: 20px;border-bottom: 1px solid #ccc;overflow: hidden;}
+
+.clr {clear:both;padding:0;margin:0;width:100%;font-size:0px;line-height:0px;/* margin-bottom: 20px; *//* padding-bottom: 20px; *//* border-bottom: 1px solid #ccc; */}
+p .spec { padding-bottom:16px; border-bottom:1px solid #eee; clear:both; text-align:right;}
+p .infopost {padding:4px 8px;border:1px solid #e9e8e8;height: 30px;}
+.content .mainbar .article p {
+display:none;
+} 
+
+.content .mainbar .article h2 {
+    font-size:14px;
+    font-weight: normal;
+    line-height: 22px;
+    margin-bottom: 10px;
+    /* margin-top: 20px; */
+    /* padding-top: 20px; */
+    /* border-top: 1px solid #ccc; */
+}
+.content .mainbar .article h2 a {
+
+font-size: 14px;
+
+padding: 0;
+
+margin: 0;
+
+
+color: #323a3f;
+}
+}

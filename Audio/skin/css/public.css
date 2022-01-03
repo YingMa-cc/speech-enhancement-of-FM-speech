@@ -1,0 +1,93 @@
+@charset "UTF-8";
+*{
+    font-family: "微软雅黑", "Microsoft YaHei", Verdana, "华文细黑";
+}
+/*清除浮动*/
+.clearfix{
+    *zoom: 1;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+}
+/*左浮动*/
+.pull-left{
+    position: relative;
+    z-index: 100;
+    float: left;
+}
+/*右浮动*/
+.pull-right{
+    float: right;
+}
+/*绝对定位*/
+.p-absolute{
+    position: absolute;
+}
+/*相对定位*/
+.p-relative{
+    position: relative;
+}
+/*固定定位*/
+.p-fixed{
+    position: fixed;
+}
+/*文本居中对齐*/
+.text-center{
+    text-align: center;
+}
+/*文本右对齐*/
+.text-right{
+    text-align: right;
+}
+/*文本左对齐*/
+.text-left{
+    text-align: left;
+}
+/*块元素水平居中*/
+.margin-auto{
+    margin: 0 auto;
+}
+/*溢出隐藏*/
+.o-hidden{
+    overflow: hidden;
+}
+/*重新计算盒模型*/
+.box-border-box{
+    box-sizing: border-box;
+}
+/*元素设置成块元素*/
+.show{
+    display: block;
+}
+/*元素设置成航元素*/
+.inline{
+    display: inline;
+}
+/*元素设置成航迹块元素*/
+.inline-block{
+    display: inline-block;
+}
+/*隐藏元素（隐藏后该元素不占位置）*/
+.hide{
+    display: none;
+}
+/*隐藏元素（隐藏后该元素占位置）*/
+.hidden{
+    visibility: hidden;
+}
+
+@media screen and (max-width: 750px ){
+    .pull-left{
+        padding-top: 6px;
+        margin-left: 20px;
+    }
+    .header img{
+        height: 30px!important;
+    }
+}
+
+
+
